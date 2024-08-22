@@ -24,3 +24,6 @@ jobs:
 
       - name: lint
         run: deno lint
+
+      - name: publish dry run
+        run: deno publish --dry-run
