@@ -1,5 +1,7 @@
 # zed settings
 
+Settings for zed + deno
+
 ## print to stdout
 
 ```sh
