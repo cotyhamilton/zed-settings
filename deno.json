@@ -1,9 +1,12 @@
 {
   "name": "@cotyhamilton/zed-settings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": "./mod.ts",
   "exclude": [
     ".zed",
     ".github"
-  ]
+  ],
+  "tasks": {
+    "version": "deno run -R=deno.json -W=deno.json jsr:@cotyhamilton/deno-tools/bump --out newVersion"
+  }
 }

@@ -1,3 +1,4 @@
+/** zed settings for deno language server */
 export const settings = {
   languages: {
     TypeScript: {
