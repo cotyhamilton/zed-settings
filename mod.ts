@@ -40,4 +40,5 @@ export const settings = {
 
 if (import.meta.main) {
   console.log(JSON.stringify(settings, null, 2));
+  console.error("%cReload window after saving settings", "color: green;");
 }
