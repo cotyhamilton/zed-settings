@@ -16,6 +16,7 @@ export const settings = {
         "!typescript-language-server",
         "!vtsls",
         "!eslint",
+        "...",
       ],
     },
     TSX: {
@@ -24,6 +25,7 @@ export const settings = {
         "!typescript-language-server",
         "!vtsls",
         "!eslint",
+        "...",
       ],
     },
     JavaScript: {
@@ -32,13 +34,17 @@ export const settings = {
         "!typescript-language-server",
         "!vtsls",
         "!eslint",
+        "...",
       ],
     },
   },
   formatter: "language_server",
 };
 
-/** zed settings for tailwind + deno language server */
+/**
+ * zed settings for deno language server
+ * with tailwindcss eslint formatting
+ */
 export const tailwindSettings = {
   lsp: {
     deno: {
@@ -56,6 +62,7 @@ export const tailwindSettings = {
         "!typescript-language-server",
         "!vtsls",
         "!eslint",
+        "...",
       ],
     },
     TSX: {
@@ -64,7 +71,7 @@ export const tailwindSettings = {
         "!typescript-language-server",
         "!vtsls",
         "eslint",
-        "tailwindcss-language-server",
+        "...",
       ],
       code_actions_on_format: {
         "source.fixAll.eslint": true,
@@ -76,6 +83,7 @@ export const tailwindSettings = {
         "!typescript-language-server",
         "!vtsls",
         "!eslint",
+        "...",
       ],
     },
   },

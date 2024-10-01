@@ -2,10 +2,12 @@
 
 Settings for zed + deno
 
-## print to stdout
+## print to sdout
 
 ```sh
 deno run jsr:@cotyhamilton/zed-settings
+
+deno run jsr:@cotyhamilton/zed-settings --tailwind # eslint formatting
 ```
 
 ## save to file
