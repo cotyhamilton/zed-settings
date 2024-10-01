@@ -64,6 +64,7 @@ export const tailwindSettings = {
         "!typescript-language-server",
         "!vtsls",
         "eslint",
+        "tailwindcss-language-server",
       ],
       code_actions_on_format: {
         "source.fixAll.eslint": true,
